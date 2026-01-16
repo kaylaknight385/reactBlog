@@ -9,9 +9,9 @@ export function Blog() {
 
   return (
     <div className="page">
-      <h1 className="page-title">the blog</h1>
+      <h1 className="page-title">Blog</h1>
       <p className="page-subtitle">
-        thoughts, rants, and random observations from yours truly
+        Thoughts, rants, and random observations from yours truly
       </p>
 
       {/* mapping through all posts and showing them as cards */}

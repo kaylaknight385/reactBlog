@@ -7,9 +7,9 @@ export function Admin() {
 
   return (
     <div className="page">
-      <h1 className="page-title">admin dashboard</h1>
+      <h1 className="page-title">Dashboard</h1>
       <p className="page-subtitle">
-        welcome back! here's all your posts (that you definitely remember writing)
+        Welcome back! Here's all your posts (that you definitely remember writing)
       </p>
 
       {/* showing all posts in a simple list */}
@@ -17,15 +17,15 @@ export function Admin() {
         <div className="admin-stats">
           <div className="stat-card">
             <h3>{posts.length}</h3>
-            <p>total posts</p>
+            <p>Total Posts</p>
           </div>
           <div className="stat-card">
-            <h3>∞</h3>
-            <p>drafts in your head</p>
+            <h3></h3>
+            <p>Drafts in your head</p>
           </div>
           <div className="stat-card">
             <h3>0</h3>
-            <p>posts scheduled (we don't plan ahead here)</p>
+            <p>Posts scheduled (we don't plan ahead here)</p>
           </div>
         </div>
 

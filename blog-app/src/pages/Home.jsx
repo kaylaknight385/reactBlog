@@ -6,27 +6,27 @@ export function Home() {
   return (
     <div className="page">
       <div className="hero">
-        <h1>hey, welcome to my little corner of the internet </h1>
+        <h1>Hey, welcome to my little corner of the internet </h1>
         <p className="hero-subtitle">
-          just a girl from atlanta talking about life, vibes, and whatever's on my mind
+          Just a girl from atlanta talking about life, vibes, and whatever's on my mind
         </p>
         <Link to="/blog" className="cta-button">
-          check out the blog
+          Check out the blog
         </Link>
       </div>
 
       <div className="features">
         <div className="feature-card">
-          <h3>real talk</h3>
-          <p>no filter, just honest thoughts about navigating your 20s in the city</p>
+          <h3>Real Talk</h3>
+          <p>No filter, just honest thoughts about navigating your 20s in the city</p>
         </div>
         <div className="feature-card">
-          <h3>atlanta things</h3>
-          <p>the culture, the food, the traffic (ugh), all the atl vibes</p>
+          <h3>Atlanta Things</h3>
+          <p>The culture, the food, the traffic (ugh), all the atl vibes</p>
         </div>
         <div className="feature-card">
-          <h3>relatable chaos</h3>
-          <p>if you're also just trying to figure it out, you're in the right place</p>
+          <h3>Relatable Chaos</h3>
+          <p>If you're also just trying to figure it out, you're in the right place</p>
         </div>
       </div>
     </div>
