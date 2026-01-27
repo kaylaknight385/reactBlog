@@ -9,7 +9,7 @@ The real question isn't why I have so many tabs open, it's why Chrome is judging
 
 In conclusion, my RAM is crying but my ADHD brain is thriving. This is fine. Everything is fine. *computer fan intensifies*`,
     author: 'chronically_online_charlie',
-    date: '2024-01-15',
+    date: '2025-11-15',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ D-Tier: Actually doing other productive tasks to avoid the main task. Like doing
 
 F-Tier: Staring at the wall. Not even scrolling. Just... existing. This is the final boss of procrastination and honestly? Respect.`,
     author: 'professional_procrastinator',
-    date: '2024-01-20',
+    date: '2025-12-20',
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ Chapter 5: "Sorry for the late reply!" It's been 6 minutes. But in text time, th
 
 TL;DR: Texting is hard. Phone calls are harder. Carrier pigeons are looking pretty good rn.`,
     author: 'anxious_texter_2000',
-    date: '2024-01-25',
+    date: '2026-01-10',
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ Also Spotify told me I'm in the top 0.5% of listeners for an artist and I don't 
 
 The worst part? I'll do it again next year. See you in therapy, Spotify Wrapped 2025.`,
     author: 'music_taste_is_my_personality',
-    date: '2024-02-01',
+    date: '2026-01-18',
   },
   {
     id: 5,
@@ -81,7 +81,7 @@ Do I need therapy? Probably. Will I get therapy? Eventually. Will I have a coffe
 
 In conclusion: I don't drink coffee to wake up anymore. I wake up to drink coffee. And honestly? That's growth.`,
     author: 'iced_coffee_in_winter',
-    date: '2024-02-05',
+    date: '2026-01-25',
   },
 ];
 

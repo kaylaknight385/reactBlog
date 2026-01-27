@@ -12,7 +12,7 @@ export function Navbar() {
       <div className="nav-container">
         {/* site logo/title */}
         <Link to="/" className="nav-logo">
-          My Blog
+          The Little Corner
         </Link>
 
         <ul className="nav-menu">

@@ -24,26 +24,28 @@ export function Login() {
   return (
     <div className="page">
       <div className="login-container">
-        <h1>admin login</h1>
-        <p>psst... the password is "admin" but don't tell anyone</p>
-        
-        <form onSubmit={handleSubmit} className="login-form">
-          <div className="form-group">
-            <label htmlFor="password">password</label>
-            <input
-              type="password"
-              id="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder="enter password"
-              required
-            />
-          </div>
+        <div className="login-card">
+          <h1>admin login</h1>
+          <p className="login-subtitle">psst... the password is "admin" but don't tell anyone</p>
           
-          <button type="submit" className="submit-button">
-            log in
-          </button>
-        </form>
+          <form onSubmit={handleSubmit} className="login-form">
+            <div className="form-group">
+              <label htmlFor="password">password</label>
+              <input
+                type="password"
+                id="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="enter password"
+                required
+              />
+            </div>
+            
+            <button type="submit" className="login-button">
+              log in
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

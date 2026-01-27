@@ -20,6 +20,23 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Swirly Canalo';
+  src: url('./assets/SwirlyCanalope_PERSONAL_USE_ONLY.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A; /* Only use for letters A-Z, a-z */
+}
+
+/* Georgia for numbers to match the elegant swirly style */
+@font-face {
+  font-family: 'Swirly Canalo';
+  src: local('Georgia');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0030-0039; /* Only use for numbers 0-9 */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,9 +44,9 @@
 }
 
 body {
-  font-family: 'BeautyDemo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-family: 'Swirly Canalo', Georgia, 'BeautyDemo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 27px;
   color: #f3e8ff;
   background-image: url('./assets/galaxy.gif');
   background-size: cover;
@@ -269,9 +286,9 @@ body::before {
 }
 
 .post-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
-  font-family: 'Wild Youth', sans-serif;
+  font-family: 'Swirly Canalo', sans-serif;
   color: #c4b5fd;
 }
 
@@ -279,8 +296,8 @@ body::before {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
-  font-size: 0.9rem;
-  font-family: 'Wild Youth', sans-serif;
+  font-size: 1rem;
+  font-family: 'Swirly Canalo', sans-serif;
   color: #e9d5ff;
 }
 
@@ -288,8 +305,8 @@ body::before {
   color: #e9d5ff;
   margin-bottom: 1rem;
   line-height: 1.8;
-  font-size: 1.1rem;
-  font-family: 'Wild Youth', sans-serif;
+  font-size: 1.4rem;
+  font-family: 'Swirly Canalo', sans-serif;
 }
 
 .read-more {
@@ -327,7 +344,7 @@ body::before {
 .blog-post-title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  font-family: 'Wild Youth', sans-serif;
+  font-family: 'Swirly Canalo', sans-serif;
   color: #c4b5fd;
   text-shadow: 0 0 20px rgba(196, 181, 253, 0.4);
 }
@@ -338,15 +355,15 @@ body::before {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid rgba(167, 139, 250, 0.3);
-  font-family: 'Wild Youth', sans-serif;
+  font-family: 'Swirly Canalo', sans-serif;
   color: #e9d5ff;
 }
 
 .blog-post-content {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 2;
   color: #e9d5ff;
-  font-family: 'Wild Youth', sans-serif;
+  font-family: 'Swirly Canalo', sans-serif;
 }
 
 .blog-post-content p {
@@ -408,7 +425,7 @@ body::before {
 .login-subtitle {
   color: #e9d5ff;
   margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .login-form {
@@ -430,13 +447,13 @@ body::before {
 }
 
 .form-group input {
-  background: rgba(26, 11, 46, 0.6);
+  background: rgba(33, 24, 45, 0.6);
   border: 2px solid rgba(167, 139, 250, 0.3);
   border-radius: 8px;
   padding: 0.8rem;
-  color: #f3e8ff;
+  color: #f8f5fa;
   font-family: 'BeautyDemo', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   transition: all 0.3s ease;
 }
 
@@ -522,7 +539,7 @@ body::before {
 }
 
 .stat-number {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: bold;
   font-family: 'Wild Youth', sans-serif;
   color: #a78bfa;
@@ -539,8 +556,8 @@ body::before {
 }
 
 .admin-section h2 {
-  margin-bottom: 1.5rem;
-  font-family: 'Daltomy Fabiola', sans-serif;
+  margin-bottom: 1.9rem;
+  font-family: 'Swirly Canalo', 'Daltomy Fabiola', sans-serif;
   color: #c4b5fd;
 }
 
@@ -568,15 +585,15 @@ body::before {
 }
 
 .admin-post-info h3 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   margin-bottom: 0.25rem;
-  font-family: 'Daltomy Fabiola', sans-serif;
+  font-family: 'Swirly Canalo', 'Daltomy Fabiola', sans-serif;
   color: #c4b5fd;
 }
 
 .admin-post-meta {
   font-size: 0.9rem;
-  font-family: 'Wild Youth', sans-serif;
+  font-family: 'Swirly Canalo', sans-serif;
   color: #e9d5ff;
 }
 
@@ -593,7 +610,7 @@ body::before {
   border-radius: 8px;
   cursor: pointer;
   font-weight: 500;
-  font-family: 'Daltomy Fabiola', sans-serif;
+  font-family: 'Swirly Canalo', 'Daltomy Fabiola', sans-serif;
   transition: all 0.3s ease;
 }
 
